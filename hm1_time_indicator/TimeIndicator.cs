@@ -1,6 +1,6 @@
 namespace hm1_time_indicator
 {
-    public partial class Form1 : Form
+    public partial class TimeIndicator : Form
     {
 
         System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
@@ -9,7 +9,7 @@ namespace hm1_time_indicator
             int timeInterval = (int)numericUpDown_Periodic.Value;
             timer.Interval = timeInterval * 1000;
         }
-        public Form1()
+        public TimeIndicator()
         {
             InitializeComponent();
 
@@ -43,6 +43,5 @@ namespace hm1_time_indicator
         {
             Timer_Tick(sender, e);
         }
-
     }
 }

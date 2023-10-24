@@ -1,6 +1,6 @@
 ﻿namespace hm1_time_indicator
 {
-    partial class Form1
+    partial class TimeIndicator
     {
         /// <summary>
         ///  Required designer variable.
